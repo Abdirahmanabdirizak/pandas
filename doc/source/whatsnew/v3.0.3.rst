@@ -18,7 +18,8 @@ Fixed regressions
 .. _whatsnew_303.bug_fixes:
 
 Bug fixes
-~~~~~~~~~
+^^^^^^^^^
+- Fixed regression in :func:`pandas.bdate_range` where specifying ``end`` on a weekend with ``periods`` returned fewer dates than expected (:issue:`64834`)
 
 .. ---------------------------------------------------------------------------
 .. _whatsnew_303.contributors:
